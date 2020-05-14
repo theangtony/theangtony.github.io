@@ -1,0 +1,28 @@
+.skills-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.skills-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.skills-exit {
+  opacity: 1;
+}
+.skills-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.customSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: inherit;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+}
